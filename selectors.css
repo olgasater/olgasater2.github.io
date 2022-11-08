@@ -61,7 +61,10 @@ input[type=text] {
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
 
-
+em {
+    color: white;
+    font-size: 20px; 
+}
 
 /*BONUS CHALLENGES*/
 /*You may need to research some other selectors and properties*/
