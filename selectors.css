@@ -49,7 +49,7 @@ div p {
 /*Make only inputs with type 'text' have a gray background*/
 
 input[type=text] {
-    backgroun-color: pink; 
+    background-color: pink; 
 }
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
