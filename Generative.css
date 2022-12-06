@@ -5,18 +5,19 @@ body {
     font-family: 'Source Code Pro', monospace;
     }
 
-.masthead {
+.hero-image {
 
-    background-size: cover; 
-    background-position: center;
+    background-image:url('./images/IMG_9507_copy.jpg');
     min-height: 600px; 
+    background-position: center; 
     background-repeat: no-repeat; 
+    background-size: cover; 
     position: relative; 
 }
 
 @media (max-width: 768px) {
-    .masthead {
-        min-height: 300px; 
+    .hero-image{
+        min-height: 300px;
     }
 }
 #headline1 {
