@@ -5,16 +5,19 @@ body {
     font-family: 'Source Code Pro', monospace;
     }
 
-.hero-image {
+.masthead {
 
-    background-image:url('./images/IMG_9507_copy.jpg');
-    height: 600px; 
-    background-position: center; 
-    background-repeat: no-repeat; 
     background-size: cover; 
+    min-height: 60vh; 
+    background-repeat: no-repeat; 
     position: relative; 
 }
 
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 30vh; 
+    }
+}
 #headline1 {
     color: white;
     background-color: #0023F5; 
