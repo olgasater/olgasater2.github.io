@@ -1,0 +1,43 @@
+body {
+    background-color:#212121;
+    font-family: 'Source Code Pro', monospace;
+    }
+
+.hero-image {
+
+    background-image:url('./Images/IMG_9507_copy.jpg');
+    height: 600px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative; 
+}
+
+.bg-img {
+    position: relative; 
+}
+
+#headline1 {
+    color: white;
+    background-color: #0023F5; 
+    font-size: 1.2rem;
+    margin: 0px;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-bottom: 40px;
+}
+p {
+    color: white;
+    background-color: #0023F5; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-bottom: 40px;
+}
+
+.nav-link {
+    background-color: pink;
+    margin: 10px; 
+
+}
+
+
