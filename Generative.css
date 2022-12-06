@@ -8,14 +8,14 @@ body {
 .masthead {
 
     background-size: cover; 
-    min-height: 60vh; 
+    min-height: 600px; 
     background-repeat: no-repeat; 
     position: relative; 
 }
 
 @media (max-width: 768px) {
     .masthead {
-        min-height: 30vh; 
+        min-height: 300px; 
     }
 }
 #headline1 {
