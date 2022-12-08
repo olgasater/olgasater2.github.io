@@ -74,6 +74,7 @@ img.img-fluid {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 15px; 
+    margin: 0; 
 }
 
 .navbar-toggler-item {
@@ -81,8 +82,76 @@ img.img-fluid {
     padding-right: 20px; 
 
 }
+
+
+.mb-3 {
+
+}
+.form-group
+{
+    padding-bottom:5px; 
+    padding-top: 15px; 
+
+
+}
+
+#exampleInputEmail1 {
+    background-color: #0023F5 !important;
+    border-color:  #0023F5 !important; 
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+
+}
+#exampleFormControlTextarea1 {
+    background-color: #0023F5 !important;
+    border-color:  #0023F5 !important; 
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+.form-text{
+
+    padding-left:15px; 
+}
+
+.icon-bar {
+    colour: white 
+}
+.btn-primary{
+    background: #A7A5A5; 
+    border-color: #A7A5A5; 
+    font-family: 'Source Code Pro', monospace;
+    color: #0023F5; 
+    margin-left: 15px; 
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 1; /* Firefox */
+  }
+
+ 
+ .social-media-icons-white a{
+     color:white; 
+     font-size: 1.3rem; 
+     margin-right: 10px;
+     margin-left: 10px;  
+ }
+
+ a:link { text-decoration: none; }
+
+ a:visited { text-decoration: none; }
+ 
+ a:hover { text-decoration: none; }
+ 
+ a:active { text-decoration: none; }
+
 .nav-link {
     font-family: 'Source Code Pro', monospace;
     background-color: #2d2d2f !important;
     margin: 10px;
-    
+    margin-right: 20px;
+    margin-left: 20px; 
+
+
