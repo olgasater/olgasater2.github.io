@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,500;0,700;0'); 
 
+/* background and text for all page */ 
 body {
     background-color:#212121;
     font-family: 'Source Code Pro', monospace;
     }
 
+/* First Image */ 
 .hero-image {
 
     background-image:url('./images/IMG_9507_copy.jpg');
@@ -19,6 +21,7 @@ body {
     .hero-image{
         min-height: 300px;
     }
+/* Text under main image (on the blue screen of death) */ 
 }
 #headline1 {
     color: white;
@@ -39,6 +42,7 @@ p {
     padding-bottom: 40px;
 }
 
+/* navbar styling */ 
 .navbar-brand {
     padding-left: 10px; 
 
@@ -47,7 +51,24 @@ p {
     background-color: rgba(45, 45, 47, 0.8) !important; 
 }
 
+.navbar-toggler-item {
 
+    padding-right: 20px; 
+
+}
+
+.nav-link {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #2d2d2f !important;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px; 
+
+}
+
+
+
+/* names of website parts: exhibition, catalogue, sponsors, connect */ 
 span { 
     background-color: #2d2d2f;
     padding-left: 20px; 
@@ -66,6 +87,8 @@ img.img-fluid {
 
 }
 
+/* text in contact form */ 
+
 #end{
     font-family: 'Source Code Pro', monospace;
     font-weight: medium !important; 
@@ -77,16 +100,8 @@ img.img-fluid {
     margin: 0; 
 }
 
-.navbar-toggler-item {
+/* contact form  */ 
 
-    padding-right: 20px; 
-
-}
-
-
-.mb-3 {
-
-}
 .form-group
 {
     padding-bottom:5px; 
@@ -117,6 +132,8 @@ img.img-fluid {
 .icon-bar {
     colour: white 
 }
+
+
 .btn-primary{
     background: #A7A5A5; 
     border-color: #A7A5A5; 
@@ -131,7 +148,8 @@ img.img-fluid {
     opacity: 1; /* Firefox */
   }
 
- 
+ /* social media icons */ 
+
  .social-media-icons-white a{
      color:white; 
      font-size: 1.3rem; 
@@ -139,6 +157,8 @@ img.img-fluid {
      margin-left: 10px;  
  }
 
+
+  /* styling of all links */ 
  a:link { text-decoration: none; }
 
  a:visited { text-decoration: none; }
@@ -147,11 +167,5 @@ img.img-fluid {
  
  a:active { text-decoration: none; }
 
-.nav-link {
-    font-family: 'Source Code Pro', monospace;
-    background-color: #2d2d2f !important;
-    margin: 10px;
-    margin-right: 20px;
-    margin-left: 20px; 
 
 
