@@ -96,8 +96,8 @@ img.img-fluid {
     color: white;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 15px; 
-    margin: 0; 
+    padding-left: 25px; 
+    margin: 0px; 
 }
 
 /* contact form  */ 
@@ -115,6 +115,7 @@ img.img-fluid {
     border-color:  #0023F5 !important; 
     font-family: 'Source Code Pro', monospace;
     color: white;
+    padding-left: 25px;
 
 }
 #exampleFormControlTextarea1 {
@@ -122,6 +123,7 @@ img.img-fluid {
     border-color:  #0023F5 !important; 
     font-family: 'Source Code Pro', monospace;
     color: white;
+    padding-left: 25px;
 }
 
 .form-text{
