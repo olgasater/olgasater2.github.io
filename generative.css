@@ -34,7 +34,6 @@ body {
 }
 p {
     font-family: 'Source Code Pro', monospace;
-    font-weight: medium !important; 
     color: white;
     background-color: #0023F5; 
     padding-left: 10px; 
@@ -91,7 +90,6 @@ img.img-fluid {
 
 #end{
     font-family: 'Source Code Pro', monospace;
-    font-weight: medium !important; 
     background-color: #2d2d2f !important;
     color: white;
     padding-top: 40px;
@@ -129,10 +127,6 @@ img.img-fluid {
 .form-text{
 
     padding-left:15px; 
-}
-
-.icon-bar {
-    colour: white 
 }
 
 
