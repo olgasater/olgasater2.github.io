@@ -166,4 +166,8 @@ a:hover { font-weight: 600;}
 
 a:active { text-decoration: none; }
 
+a{
+    color:white; 
+}
+
 
