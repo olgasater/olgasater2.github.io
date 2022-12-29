@@ -68,14 +68,6 @@ span {
  }
 
 
-  /* styling of all links */ 
- a:link { text-decoration: none; }
-
- a:visited { text-decoration: none; }
- 
- a:hover { text-decoration: none; }
- 
- a:active { text-decoration: none; }
 
    /* portrait*/ 
 
@@ -145,5 +137,12 @@ img.img-fluid {
   a{
     color:white; 
 }
+
+a:visited { text-decoration: none; }
+ 
+a:hover { font-weight: 600;
+color:white; }
+
+a:active { text-decoration: none; }
  
   
