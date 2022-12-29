@@ -65,7 +65,7 @@ span {
 
  a:visited { text-decoration: none; }
  
- a:hover { text-decoration: none; }
+ a:hover { font-weight: 600;}
  
  a:active { text-decoration: none; }
 
