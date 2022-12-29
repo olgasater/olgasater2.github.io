@@ -123,13 +123,6 @@ img.img-fluid {
     color: white;
 }
 
- a:visited { text-decoration: none; }
- 
- a:hover { font-weight: 600;}
- 
- a:active { text-decoration: none; }
-
- 
   
 
 
@@ -166,5 +159,11 @@ img{
     padding:0px; 
 
 }
+
+a:visited { text-decoration: none; }
+ 
+a:hover { font-weight: 600;}
+
+a:active { text-decoration: none; }
 
 
